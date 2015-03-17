@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/work/cortex-A8/buildroot/output/host/usr/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 Bootstrap
+Description: Qt Bootstrap module
+Version: 5.4.0
+Libs: -L${libdir} -lQt5Bootstrap 
+Libs.private: -lpthread   
+Cflags: -I${includedir}/QtBootstrap -I${includedir}
+

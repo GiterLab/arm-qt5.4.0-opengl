@@ -1,0 +1,3 @@
+#!/work/cortex-A8/buildroot/output/host/usr/bin/ruby
+require 'test/unit'
+exit Test::Unit::AutoRunner.run(true)

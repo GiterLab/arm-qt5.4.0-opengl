@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 ScriptTools
+Description: Qt ScriptTools module
+Version: 5.4.0
+Libs: -L${libdir} -lQt5ScriptTools 
+Libs.private: -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lQt5Core -lrt -ldl -lpthread -L/usr/lib -lQt5Script -lQt5Widgets -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lQt5Gui -lQt5Core -lrt -ldl -lpthread -lGLESv2 -lGLES_CM -lsrv_um -lusc -lEGL -lIMGegl  
+Cflags: -I${includedir}/QtScriptTools -I${includedir}
+Requires: Qt5Core
+

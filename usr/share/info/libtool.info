@@ -1,0 +1,139 @@
+This is doc/libtool.info, produced by makeinfo version 4.13 from
+./doc/libtool.texi.
+
+This manual is for GNU Libtool (version 2.4.5, 17 January 2015).
+
+   Copyright (C) 1996-2015 Free Software Foundation, Inc.
+
+   Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+Texts.  A copy of the license is included in the section entitled "GNU
+Free Documentation License".
+
+INFO-DIR-SECTION Software development
+START-INFO-DIR-ENTRY
+* Libtool: (libtool).           Generic shared library support script.
+END-INFO-DIR-ENTRY
+
+INFO-DIR-SECTION Individual utilities
+START-INFO-DIR-ENTRY
+* libtool-invocation: (libtool)Invoking libtool. Running the `libtool' script.
+* libtoolize: (libtool)Invoking libtoolize.      Adding libtool support.
+END-INFO-DIR-ENTRY
+
+
+Indirect:
+libtool.info-1: 975
+libtool.info-2: 286869
+
+Tag Table:
+(Indirect)
+Node: Top975
+Node: Introduction8169
+Node: Motivation9987
+Node: Issues11307
+Node: Other implementations12785
+Node: Postmortem13328
+Node: Libtool paradigm14948
+Node: Using libtool15893
+Node: Creating object files17996
+Node: Linking libraries21733
+Ref: Linking libraries-Footnote-125547
+Node: Linking executables25688
+Ref: Linking executables-Footnote-130939
+Ref: Linking executables-Footnote-231232
+Node: Wrapper executables31312
+Node: Debugging executables33535
+Node: Installing libraries36349
+Ref: Installing libraries-Footnote-139511
+Node: Installing executables39582
+Node: Static libraries40418
+Node: Invoking libtool43695
+Node: Compile mode49338
+Node: Link mode52299
+Node: Execute mode61819
+Node: Install mode62599
+Node: Finish mode64970
+Node: Uninstall mode65832
+Node: Clean mode66273
+Node: Integrating libtool66732
+Node: Autoconf macros69562
+Node: Makefile rules73404
+Node: Using Automake74507
+Ref: Using Automake-Footnote-176088
+Node: Configuring76488
+Node: LT_INIT77722
+Ref: LT_INIT-Footnote-195099
+Node: Configure notes95352
+Node: Distributing98612
+Node: Invoking libtoolize99529
+Node: Autoconf and LTLIBOBJS105711
+Node: Static-only libraries106455
+Ref: Static-only libraries-Footnote-1107773
+Node: Other languages107882
+Node: C++ libraries108581
+Node: Tags110004
+Node: Versioning111417
+Node: Interfaces112785
+Node: Libtool versioning113418
+Node: Updating version info115631
+Node: Release numbers118663
+Node: Library tips120500
+Node: C header files123306
+Ref: C header files-Footnote-1126961
+Node: Inter-library dependencies127170
+Node: Dlopened modules129871
+Node: Building modules131758
+Node: Dlpreopening132959
+Node: Linking with dlopened modules138598
+Node: Finding the dlname143527
+Ref: Finding the dlname-Footnote-1144845
+Node: Dlopen issues144898
+Node: Using libltdl145939
+Node: Libltdl interface147777
+Ref: Libltdl interface-Footnote-1161385
+Node: Modules for libltdl161679
+Node: Thread Safety in libltdl164205
+Node: User defined module data165218
+Node: Module loaders for libltdl172702
+Ref: Module loaders for libltdl-Footnote-1181973
+Node: Distributing libltdl182079
+Ref: Distributing libltdl-Footnote-1195849
+Ref: Distributing libltdl-Footnote-2196145
+Node: Trace interface196295
+Node: FAQ197131
+Node: Stripped link flags197469
+Node: Troubleshooting198913
+Node: Libtool test suite199436
+Node: Test descriptions200205
+Node: When tests fail212593
+Node: Reporting bugs213596
+Node: Maintaining215214
+Node: New ports215957
+Node: Information sources216650
+Node: Porting inter-library dependencies219108
+Node: Tested platforms221822
+Node: Platform quirks230252
+Node: References231433
+Node: Compilers232283
+Ref: Compilers-Footnote-1233859
+Node: Reloadable objects234175
+Node: Multiple dependencies234534
+Node: Archivers235428
+Node: Cross compiling236018
+Node: File name conversion241995
+Node: File Name Conversion Failure244870
+Node: Native MinGW File Name Conversion246118
+Node: Cygwin/Windows File Name Conversion247681
+Node: Unix/Windows File Name Conversion249052
+Node: LT_CYGPATH249818
+Node: Cygwin to MinGW Cross253062
+Node: Windows DLLs257366
+Node: libtool script contents264645
+Node: Cheap tricks285007
+Node: GNU Free Documentation License286869
+Node: Combined Index312044
+
+End Tag Table

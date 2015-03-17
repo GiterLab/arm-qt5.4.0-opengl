@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/work/cortex-A8/buildroot/output/host/usr/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 QmlDevTools
+Description: Qt QmlDevTools module
+Version: 5.4.0
+Libs: -L${libdir} -lQt5QmlDevTools 
+Libs.private: -L/work/cortex-A8/buildroot/output/host/usr/lib -lQt5Bootstrap -lpthread   
+Cflags: -I${includedir}/QtQmlDevTools -I${includedir}
+Requires: Qt5Bootstrap
+

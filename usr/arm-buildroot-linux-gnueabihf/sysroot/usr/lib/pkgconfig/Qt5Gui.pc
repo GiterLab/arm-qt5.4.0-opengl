@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 Gui
+Description: Qt Gui module
+Version: 5.4.0
+Libs: -L${libdir} -lQt5Gui 
+Libs.private: -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -L/usr/lib -lQt5Core -lrt -ldl -lpthread -lpng -lqtharfbuzzng -lrt -lpthread -ldl -lz -lGLESv2 -lGLES_CM -lsrv_um -lusc -lEGL -lIMGegl  
+Cflags: -I${includedir}/QtGui -I${includedir}
+Requires: Qt5Core
+

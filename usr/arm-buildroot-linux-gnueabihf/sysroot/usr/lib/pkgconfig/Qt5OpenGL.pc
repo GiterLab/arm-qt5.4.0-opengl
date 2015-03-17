@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 OpenGL
+Description: Qt OpenGL module
+Version: 5.4.0
+Libs: -L${libdir} -lQt5OpenGL 
+Libs.private: -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -L/usr/lib -lQt5Widgets -lQt5Gui -lQt5Core -lrt -ldl -lpthread -lGLESv2 -lGLES_CM -lsrv_um -lusc -lEGL -lIMGegl  
+Cflags: -I${includedir}/QtOpenGL -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

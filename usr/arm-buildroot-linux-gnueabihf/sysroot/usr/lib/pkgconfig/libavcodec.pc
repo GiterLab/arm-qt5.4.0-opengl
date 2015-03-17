@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 56.13.100
+Requires: 
+Requires.private: libswresample >= 1.1.100, libavutil >= 54.15.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -Wl,-rpath,/usr/lib -lSDL -lpthread -lssl -lcrypto -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lfreetype -lfontconfig -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lfreetype -lm -lz -pthread
+Cflags: -I${includedir}

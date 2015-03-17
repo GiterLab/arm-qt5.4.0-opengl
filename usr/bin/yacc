@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/work/cortex-A8/buildroot/output/host/usr/bin/bison' -y "$@"

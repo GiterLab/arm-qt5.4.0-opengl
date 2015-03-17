@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 WebKitWidgets
+Description: Qt WebKitWidgets module
+Version: 5.4.0
+Libs: -L${libdir} -lQt5WebKitWidgets 
+Libs.private: -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -L/usr/lib -lQt5WebKit -lQt5Widgets -lQt5Gui -lQt5Network -lQt5Core -lrt -ldl -lpthread -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr//lib -lgio-2.0 -lgstapp-0.10 -lgstinterfaces-0.10 -lgstpbutils-0.10 -pthread -lgstvideo-0.10 -lgstbase-0.10 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 -lsqlite3 -licui18n -licuuc -licudata -lQt5WebKit -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lQt5Sensors -lQt5PrintSupport -lQt5OpenGL -lQt5Widgets -lQt5Gui -lQt5Sql -lQt5Network -lQt5Core -lrt -ldl -lpthread -lGLESv2 -lGLES_CM -lsrv_um -lusc -lEGL -lIMGegl  
+Cflags: -I${includedir}/QtWebKitWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets Qt5Network Qt5WebKit
+

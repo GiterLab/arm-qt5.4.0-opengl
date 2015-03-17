@@ -1,0 +1,15 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+host_bins=/work/cortex-A8/buildroot/output/host/usr/bin
+qt_config=minimal-config small-config medium-config large-config full-config fontconfig evdev tslib directfb linuxfb c++11 accessibility egl eglfs opengl opengles2 shared qpa reduce_exports clock-gettime clock-monotonic posix_fallocate mremap getaddrinfo ipv6ifname getifaddrs inotify eventfd system-jpeg system-png png system-freetype harfbuzz system-zlib glib dbus openssl icu concurrent audio-backend release
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.4.0
+Libs: -L${libdir} -lQt5Core 
+Libs.private: -lrt -ldl -lpthread -lz -licui18n -licuuc -licudata -lpcre16 -lm -ldl -lgthread-2.0 -pthread -L/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -lglib-2.0 -lrt  
+Cflags: -I${includedir}/QtCore -I${includedir}
+

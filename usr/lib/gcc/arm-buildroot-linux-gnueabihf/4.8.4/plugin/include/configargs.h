@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "./configure --prefix=/work/cortex-A8/buildroot/output/host/usr --sysconfdir=/work/cortex-A8/buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/work/cortex-A8/buildroot/output/host/usr --with-mpfr=/work/cortex-A8/buildroot/output/host/usr --enable-target-optspace --disable-libquadmath --enable-tls --enable-libmudflap --enable-threads --with-mpc=/work/cortex-A8/buildroot/output/host/usr --with-isl=/work/cortex-A8/buildroot/output/host/usr --with-cloog=/work/cortex-A8/buildroot/output/host/usr --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-mode=arm --with-pkgversion='Buildroot 2015.02-git-01095-gac37db1' --with-bugurl=http://bugs.buildroot.net/ --enable-languages=c,c++ --enable-poison-system-directories --with-build-time-tools=/work/cortex-A8/buildroot/output/host/usr/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "abi", "aapcs-linux" }, { "cpu", "cortex-a8" }, { "float", "hard" }, { "mode", "arm" }, { "fpu", "neon" }, { "tls", "gnu" } };

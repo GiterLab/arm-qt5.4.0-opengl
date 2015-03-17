@@ -1,0 +1,11 @@
+prefix=/work/cortex-A8/buildroot/output/host/usr
+exec_prefix=/work/cortex-A8/buildroot/output/host/usr
+libdir=/work/cortex-A8/buildroot/output/host/usr/lib
+includedir=/work/cortex-A8/buildroot/output/host/usr/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 19
+Libs: -L${libdir} -lkmod
+Libs.private:  
+Cflags: -I${includedir}
